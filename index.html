@@ -20,10 +20,45 @@
                 </ul>
             </nav>
         </header>
+        
         <!--Hero jumbotron-->
         <section>
-
+            <!--form div-->
+            <div>
+                <h3>Get Started Today</h3>
+                <p>Fill out this form and one of our trainers will schedule a consult</p>
+                <!--form-->
+                <form>
+                    <!--name-->
+                    <!--for of label links to id of input-->
+                    <label for="name">Enter full name:</label>
+                    <input type="text" placeholder="Your Name" name="name" id="name"/>
+                    <!--email-->
+                    <label for="email">Enter email address:</label>
+                    <input type="email" placeholder="Email Address" name="email" id="email"/>
+                    <!--phone-->
+                    <label for="phone">Enter a telephone number</label>
+                    <input type="tel" placeholder="Phone Number" name="phone" id="phone"/>
+                    <!--trainer confirm-->
+                    <p>
+                        Have you worked out with a trainer before?
+                        <input type="radio" name="trainer-confirm" id="trainer-yes"/>
+                        <label for="trainer-yes">Yes</label>
+                        <input type="radio" name="trainer-confirm" id="trainer-no"/>
+                        <lable for="trainer-no">No</lable>
+                    </p>
+                    <!--age confirm-->
+                    <p>
+                        <label for="age-confirm">acknowledge that I am at least 18 years of age.</label>I 
+                        <input type="checkbox" name="age-confirm" id="age-confirm"/>
+                    </p>
+                    <button type="submit">
+                        Get running!
+                    </button>
+                </form>
+            </div>
         </section>
+        
         <!--What we do-->
         <section>
             <h2>What We Do</h2>

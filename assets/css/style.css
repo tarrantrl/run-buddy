@@ -79,6 +79,9 @@ section {
     position: relative;
 }
 
+/* QUESTION
+Why didn't I need to make .hero relative position? .hero-form was not at the bottom of the page to begin with*/
+
 /* Hero form */
 .hero-form {
     background-color: #fce138;
@@ -119,6 +122,10 @@ fixed: out of natural flow, offset from viewport and not affected by scrolling *
 .hero-form label{
     margin: 0 5px;
 }
+
+/*.hero-form .radio-label{
+    margin: 0 5px;
+}*/
 
 .hero-form button{
     background-color: #024e76;

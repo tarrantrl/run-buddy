@@ -12,3 +12,5 @@ https://tarrantrl.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Rachel Forsyth.
+
+### ©️2019 Run Buddy, Inc 

@@ -162,10 +162,11 @@ fixed: out of natural flow, offset from viewport and not affected by scrolling *
 .section-title{
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
-    display: inline-block;    
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 .primary-border {
     border-color: #fce138;
@@ -174,24 +175,24 @@ fixed: out of natural flow, offset from viewport and not affected by scrolling *
     border-color: #39a6b2;
 }
 
-/* what we do section */
-.intro {
-    text-align: center;
+.flex-row {
+    display: flex;
 }
 
+/* what we do section */
 .intro p{
     line-height: 1.7;
     color: #39a6b2;
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
     /* this would also center the less than 100% width p block 
     display: inline-block;*/
 }
 
 /* What You Do steps section */
 .steps {
-    text-align: center;
     background: #fce138;
 }
 
@@ -221,7 +222,6 @@ fixed: out of natural flow, offset from viewport and not affected by scrolling *
 
 /* Trainer styles */
 .trainers {
-    text-align: center;
 }
 
 .trainer {
@@ -269,7 +269,6 @@ fixed: out of natural flow, offset from viewport and not affected by scrolling *
 
 /* Reach out styles */
 .contact {
-    text-align: center;
     background: #024e76;
 }
 

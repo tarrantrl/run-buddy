@@ -486,6 +486,26 @@ fixed: out of natural flow, offset from viewport and not affected by scrolling *
     .step-text {
         flex: 100%;
     }
+
+    .service-grid-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .service-grid-item.basic {
+        grid-column: 1;
+    }
+    
+    .service-grid-item.both {
+        grid-column: 1 / -1;
+    }
+
+    .service-grid-item.cancel {
+        transform: none;
+        writing-mode: unset;
+        grid-column: 1 / -1;
+        grid-row: -1;
+    }
+
 }
 /* Media Query for Mobile Phones and Smaller */
 @media screen and (max-width: 575px){

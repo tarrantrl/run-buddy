@@ -32,11 +32,11 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates a debitis error ducimus repudiandae sint? Sit ratione culpa laudantium vero distinctio sint reiciendis adipisci iusto corrupti. Earum recusandae quod voluptate?
                 </p>
             </div>
-            <!--form div-->
+            <!--Hero form div-->
             <div class="hero-form">
                 <h3>Get Started Today</h3>
                 <p>Fill out this form and one of our trainers will schedule a consult</p>
-                <!--form-->
+                <!--Hero form-->
                 <form>
                     <!--name-->
                     <!--for of label links to id of input-->
@@ -51,15 +51,21 @@
                     <!--trainer confirm-->
                     <p>
                         Have you worked out with a trainer before?
-                        <input type="radio" name="trainer-confirm" id="trainer-yes"/>
-                        <label for="trainer-yes" class="radio-label">Yes</label>
-                        <input type="radio" name="trainer-confirm" id="trainer-no"/>
-                        <lable for="trainer-no" class="radio-label">No</lable>
+                        <span class="radio-wrapper">
+                            <input type="radio" name="trainer-confirm" id="trainer-yes"/>
+                            <label for="trainer-yes" class="radio-label">Yes</label>
+                        </span>
+                        <span class="radio-wrapper">
+                            <input type="radio" name="trainer-confirm" id="trainer-no"/>
+                            <label for="trainer-no" class="radio-label">No</label>
+                        </span>
                     </p>
                     <!--age confirm-->
                     <p>
-                        <label for="age-confirm">I acknowledge that I am at least 18 years of age.</label> 
-                        <input type="checkbox" name="age-confirm" id="age-confirm"/>
+                        <span class="checkbox-wrapper">
+                            <input type="checkbox" name="age-confirm" id="age-confirm"/>
+                            <label for="age-confirm">I acknowledge that I am at least 18 years of age.</label> 
+                        </span>
                     </p>
                     <button type="submit">
                         Get running!
